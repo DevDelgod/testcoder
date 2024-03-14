@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificar e Codificar</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="./files/hacker.png" type="image/x-icon">
+</head>
+<body>
+    
+    <main class="main_container"> 
+        <header class="cabecalho">
+            <img src="./files/hacker.png" alt="Logo de pessoa mexendo no notebook!">
+            <h1>Mensagens Codificadas</h1>
+        </header>
+
+        <div class="container_input">
+            <div class="input">
+                <textarea id="input_texto" placeholder="Digite o seu texto aqui..."></textarea>
+                <p>ATENCAO: Apenas letras maiúsculas e sem acento!!!!</p>
+            </div>
+
+            <div id="output">
+                <img src="./files/hacker.png" alt="Logo de pessoa mexendo no notebook! (De novo)">
+                <h2>Sua mensagem aparecerá aqui!!</h2>
+                <span>Digite o testo que deseja criptografar ou descriptografar!</span>
+            </div>
+            </div>
+
+            <div class="botoes">
+                <div class="container_btn">
+                    <button onclick="criptografar()" class="btn_criptografar">Criptografar</button>
+                    <button onclick="descriptografar()" class="btn_descriptografar">Descriptografar</button>
+                </div>
+            </div>
+
+            </main>
+
+            <footer class="rodape">
+                <div class="icones">
+                    <a href="https://www.instagram.com/delgabriel_/"><ion-icon name="logo-instagram"></ion-icon></a>
+                    <a href="https://github.com/DevDelgod"><ion-icon name="logo-github"></ion-icon></a>
+                </div>
+                <h3>Desenvolvido por Gabriel Delgado</h3>
+            </footer>
+
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
